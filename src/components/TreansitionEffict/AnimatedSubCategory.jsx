@@ -10,7 +10,7 @@ const AnimatedSubCategory = () => {
     const [showSubCategory, setShowSubCategory] = useState(false);
     const location = useLocation();
     const { id } = useParams(); 
-    const [data, setData] = useState(category);
+    const [data] = useState(category);
 
     useEffect(() => {
         const isSubCategoryPage = location.pathname.startsWith('/subcategory/');
