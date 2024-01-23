@@ -1,15 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./components/LangPage/LandingPage";
-import SubCategory from "./components/SubCategory/SubCategory";
-import { category } from "./data";
 import AnimatedCategory from "./components/TreansitionEffict/AnimatedCategory";
 import AnimatedSubCategory from "./components/TreansitionEffict/AnimatedSubCategory"
-import  AboutPage  from "./components/AboutPage/AboutPage";
+
 import AnimatedAboutPage from "./components/TreansitionEffict/AnimatedAboutPage";
 
 function App() {
-  const [data, setData] = useState(category);
 
   return (
     <BrowserRouter>

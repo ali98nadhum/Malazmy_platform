@@ -9,7 +9,7 @@ const AnimatedCategory = () => {
     const [showTransition, setShowTransition] = useState(true);
     const [showCategory, setShowCategory] = useState(false);
     const location = useLocation();
-    const [data , setData] = useState(category)
+    const [data ] = useState(category)
   
     useEffect(() => {
       if (location.pathname === '/category') {
