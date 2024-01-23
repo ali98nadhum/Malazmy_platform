@@ -8,7 +8,7 @@ import { IoLogoYoutube } from "react-icons/io";
 import Button from "@mui/material/Button";
 import { ProgramingVideo, mexVideo } from "../../dataV2";
 import { Link } from "react-router-dom";
-import Zoom from "react-reveal/Zoom";
+import { Fade } from "react-awesome-reveal";
 
 const VideoComp = () => {
   const [dataProgramingVideo] = useState(ProgramingVideo);
@@ -33,7 +33,7 @@ const VideoComp = () => {
           <div className="title_video_content">
             <h1>مقاطع شرح ماده البرمجه</h1>
           </div>
-          <Zoom left cascade>
+          <Fade left cascade>
             <div className="grid2">
               {dataProgramingVideo.map((item) => {
                 return (
@@ -58,13 +58,13 @@ const VideoComp = () => {
                 );
               })}
             </div>
-          </Zoom>
+          </Fade>
         </div>
         <div className="video_content">
           <div className="title_video_content">
             <h1>شروحات منوعه</h1>
           </div>
-          <Zoom left cascade>
+          <Fade left cascade>
             <div className="grid2">
               {datamexVideo.map((item) => {
                 return (
@@ -89,7 +89,7 @@ const VideoComp = () => {
                 );
               })}
             </div>
-          </Zoom>
+          </Fade>
         </div>
       </Container>
       <Footer />
