@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from "./components/LangPage/LandingPage";
+import SubCategory from "./components/SubCategory/SubCategory";
+import { category } from "./data";
+import AnimatedCategory from "./components/TreansitionEffict/AnimatedCategory";
+import AnimatedSubCategory from "./components/TreansitionEffict/AnimatedSubCategory"
+import  AboutPage  from "./components/AboutPage/AboutPage";
+import AnimatedAboutPage from "./components/TreansitionEffict/AnimatedAboutPage";
 
 function App() {
+  const [data, setData] = useState(category);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/category" element={<AnimatedCategory />} />
+        <Route
+          path="/subcategory/:id"
+          element={<AnimatedSubCategory/>}
+        />
+        <Route path="/about" element={ <AnimatedAboutPage/> }/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

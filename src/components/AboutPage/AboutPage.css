@@ -1,0 +1,195 @@
+.about {
+  margin-top: 40px;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+.about .title h1 {
+  text-align: center;
+}
+
+.about hr {
+  border: 2px solid black;
+  width: 500px;
+  margin-bottom: 40px;
+}
+
+.about .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .top .about_card .avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.about .top .about_card .avatar img {
+  width: 250px;
+  height: 280px;
+  border-radius: 30px;
+  margin-top: 40px;
+  animation: imageAnime 2s ease 0s 1 normal forwards;
+}
+
+.about .top .about_card .name {
+  display: flex;
+  justify-content: center;
+}
+
+.about .top .about_card .des {
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.about .top .about_card .des p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.about .top .about_card .social_media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.about .top .about_card .social_media .icon {
+  color: black;
+  font-size: 48px;
+  padding-left: 30px;
+}
+
+.about .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.about .bottom .right .image_right img {
+  width: 350px;
+  height: 350px;
+}
+
+.about .bottom .right h1 {
+  direction: rtl;
+  margin-right: 20px;
+}
+
+.about .bottom .right ul {
+  direction: rtl;
+}
+
+.about .bottom .right ul li {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.about .bottom .left .image_left img {
+  width: 350px;
+  height: 350px;
+}
+
+.about .bottom .left .sec1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3390ec;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.about .bottom .left .sec1 p {
+  color: aliceblue;
+}
+
+.about .bottom .left .sec1 .telegram {
+  color: aliceblue;
+  font-size: 36px;
+}
+
+@keyframes imageAnime {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateY(-30px) rotate(6deg);
+  }
+
+  30% {
+    transform: translateY(15px) rotate(-6deg);
+  }
+
+  45% {
+    transform: translateY(-15px) rotate(3.6deg);
+  }
+
+  60% {
+    transform: translateY(9px) rotate(-2.4deg);
+  }
+
+  75% {
+    transform: translateY(-6px) rotate(1.2deg);
+  }
+}
+
+@media (max-width: 450px) {
+  .about .title {
+    font-size: 24px;
+  }
+  .about hr {
+    width: 300px;
+  }
+  .about .top {
+    display: block;
+  }
+  .about .bottom {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .about .top .about_card .avatar img {
+    width: 220px;
+    height: 250px;
+  }
+  .about .top .about_card .des {
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .about .top .about_card .des p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .about .top .about_card .social_media .icon {
+    font-size: 40px;
+    padding-left: 25px;
+  }
+  .about .bottom .right .image_right {
+    margin-top: 40px;
+  }
+
+  .about .bottom .right .image_right img {
+    width: 300px;
+    height: 300px;
+  }
+  .about .bottom .left .image_left img {
+    width: 300px;
+    height: 300px;
+  }
+  .about .bottom .right h1 {
+    margin-right: 20px;
+    font-size: 24px;
+  }
+}
