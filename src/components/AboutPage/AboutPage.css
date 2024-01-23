@@ -96,7 +96,8 @@
   height: 350px;
 }
 
-.about .bottom .left .sec1 {
+.about .bottom .left .sec1,
+.about .bottom .left .sec2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -106,11 +107,13 @@
   border-radius: 10px;
 }
 
-.about .bottom .left .sec1 p {
+.about .bottom .left .sec1 p,
+.about .bottom .left .sec2 p {
   color: aliceblue;
 }
 
-.about .bottom .left .sec1 .telegram {
+.about .bottom .left .sec1 .telegram,
+.about .bottom .left .sec2 .telegram {
   color: aliceblue;
   font-size: 36px;
 }
@@ -141,6 +144,25 @@
   75% {
     transform: translateY(-6px) rotate(1.2deg);
   }
+}
+
+@media (max-width: 1025px) {
+  .about .top {
+    display: block;
+  }
+  .about .top .about_card .des {
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .about .bottom {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .about .bottom .left .sec1{
+    margin-top: 40px;
+  }
+  
 }
 
 @media (max-width: 450px) {

@@ -19,7 +19,9 @@ const Header = () => {
                 {" "}
                 <li>الملازم</li>
               </Link>
-              <li>شرح المواد</li>
+              <Link to={"/tutorial"}>
+                <li>شرح المواد</li>
+              </Link>
               <Link to={"/about"}>
                 {" "}
                 <li>حول المنصه</li>
@@ -39,7 +41,9 @@ const Header = () => {
                   {" "}
                   <li>الملازم</li>
                 </Link>
-                <li>شرح المواد</li>
+                <Link to={"/tutorial"}>
+                  <li>شرح المواد</li>
+                </Link>
                 <Link to={"/about"}>
                   {" "}
                   <li>حول المنصه</li>

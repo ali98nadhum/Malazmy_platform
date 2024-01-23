@@ -13,3 +13,15 @@ footer .p_footer{
     font-size:  18px;
     font-family: 'Almarai', sans-serif;
 }
+
+@media (max-width: 1025px){
+    footer{
+        margin-top: 550px;
+    }
+}
+
+@media (max-width: 450px){
+    footer{
+        margin-top: 80px;
+    }
+}

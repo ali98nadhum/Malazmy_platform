@@ -101,7 +101,7 @@ const AboutPage = () => {
                 </div>
               </Link>
               <Link to={'https://t.me/+sGW22UmGT1UyOTU6'}>
-                <div className="sec1">
+                <div className="sec2">
                   <FaTelegram className="telegram" />
                   <p>قناه الملازم على التليكرام </p>
                 </div>

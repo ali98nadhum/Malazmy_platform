@@ -1,39 +1,56 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./LandingPage.css";
 import Container from "../Container/Container";
-import Header from "../Hedear/Header";
-import Footer from "../Footer/Footer";
-import image from '../../assets/lang-image4.jpg';
+import Header from "../../components/Hedear/Header";
+import Footer from "../../components/Footer/Footer";
+import image from "../../assets/lang-image4.jpg";
 import { Link } from "react-router-dom";
+import LogoComp from "../LogoComp/LogoComp";
 
 const LandingPage = () => {
+  const [showLogoComp, setShowLogoComp] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowLogoComp(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div>
-      <Header/>
-      <Container>
-        <div className="land_page">
-          <div className="right_sec">
-            <img src={image} alt="" />
-          </div>
-          <div className="left_sec">
-            <div className="text">
-              <p>
-                {" "}
-                منصه مخصصه لطلاب جامعه التراث قسم هندسه تقنيات الحاسوب (المرحله الثانيه) عباره عن
-                مكتبه سحابيه لنشر الملازم الخاصه بالمحاضرات وشرح المواد{" "}
-              </p>
+      {showLogoComp && <LogoComp />}
+      {!showLogoComp && (
+        <>
+          <Header />
+          <Container>
+            <div className="land_page">
+              <div className="right_sec">
+                <img src={image} alt="صورة" />
+              </div>
+              <div className="left_sec">
+                <div className="text">
+                  <p>
+                    منصة مخصصة لطلاب جامعة التراث قسم هندسة تقنيات الحاسوب
+                    (المرحلة الثانية) عبارة عن مكتبة سحابية لنشر الملازم الخاصة
+                    بالمحاضرات وشرح المواد.
+                  </p>
+                </div>
+                <div className="btn_class">
+                  <Link to="/category">
+                    <button className="btn">
+                      <i className="animation"></i> تصفح الملازم{" "}
+                      <i className="animation"></i>
+                    </button>
+                  </Link>
+                </div>
+              </div>
             </div>
-            <div className="btn_class">
-            <Link to={'/category'}>
-              <button class="btn">
-                <i class="animation"></i> تصفح الملازم <i class="animation"></i>
-              </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </Container>
-      <Footer/>
+          </Container>
+          <Footer />
+        </>
+      )}
     </div>
   );
 };

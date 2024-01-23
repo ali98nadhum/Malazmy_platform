@@ -76,10 +76,10 @@
     }
   }
 
-  @media (max-width: 850px){
+  @media (max-width: 1025px){
 
     .land_page{
-      height: 440px;
+      height: 500px;
     }
 
     .land_page .right_sec img{
