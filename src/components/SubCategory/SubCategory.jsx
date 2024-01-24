@@ -5,7 +5,7 @@ import Container from "../Container/Container";
 import { Link, useParams } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import image from "../../assets/subcategory.png";
-import { Fade } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 
 const SubCategory = ({ dataProps }) => {
@@ -30,7 +30,7 @@ const SubCategory = ({ dataProps }) => {
             <p>هنا رح تشوف الملازم مرقمه حسب الاقدميه</p>
           </div>
           {subTitleKeys.map((key, index) => (
-           <Fade>
+           <Zoom>
             <div className="flix" key={index}>
               <div className="subcategory_card_right">
                 <img src={cover[coverKeys[index]]} alt="" />
@@ -52,7 +52,7 @@ const SubCategory = ({ dataProps }) => {
                 </Link>
               </div>
             </div>
-            </Fade>
+            </Zoom>
           ))}
         </div>
       </Container>

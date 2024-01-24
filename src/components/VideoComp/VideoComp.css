@@ -147,6 +147,13 @@
   }
 }
 
+@media (max-width: 1025px){
+  .video_content .grid2 {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 100px;
+  }
+}
+
 @media (max-width: 450px) {
   .header_video .image_header img {
     width: 250px;
