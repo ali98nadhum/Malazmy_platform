@@ -105,16 +105,14 @@ export const category = [
     subCategory: {
       item1: {
         subTitle: {
-          subTitle1: "المحاضره الاولى",
-          subTitle2: "المحاضره الثانيه",
+          
         },
         cover: {
-          img1: "https://penntoday.upenn.edu/sites/default/files/2022-10/computer-chip-ai-main.jpg",
-          img2: "https://penntoday.upenn.edu/sites/default/files/2022-10/computer-chip-ai-main.jpg",
+          // img1: "https://penntoday.upenn.edu/sites/default/files/2022-10/computer-chip-ai-main.jpg",
+          // img2: "https://penntoday.upenn.edu/sites/default/files/2022-10/computer-chip-ai-main.jpg",
         },
         link: {
-          link1: "https://www.youtube.com/watch?v=fs2wdZMVGI0",
-          link2: "https://www.youtube.com/watch?v=fs2wdZMVGI0",
+          
         },
       },
     },
@@ -126,16 +124,14 @@ export const category = [
     subCategory: {
       item1: {
         subTitle: {
-          subTitle1: "المحاضره الاولى",
-          subTitle2: "المحاضره الثانيه",
+          
         },
         cover: {
-          img1: "https://eu.mouser.com/images/homepage/hero/lg/mouser-hp-bn-lg-electronics-live-exhibition-en.jpg",
-          img2: "https://eu.mouser.com/images/homepage/hero/lg/mouser-hp-bn-lg-electronics-live-exhibition-en.jpg",
+          // img1: "https://eu.mouser.com/images/homepage/hero/lg/mouser-hp-bn-lg-electronics-live-exhibition-en.jpg",
+          // img2: "https://eu.mouser.com/images/homepage/hero/lg/mouser-hp-bn-lg-electronics-live-exhibition-en.jpg",
         },
         link: {
-          link1: "https://www.youtube.com/watch?v=fs2wdZMVGI0",
-          link2: "https://www.youtube.com/watch?v=fs2wdZMVGI0",
+          
         },
       },
     },
