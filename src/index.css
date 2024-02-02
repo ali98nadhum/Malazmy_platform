@@ -6,3 +6,12 @@ body{
   box-sizing: border-box;
   font-family: 'Almarai', sans-serif;
 }
+
+[data-theme="dark"]{
+  background-color: black;
+  transition: 1500ms;
+}
+
+[data-theme="light"]{
+  transition: 1500ms;
+}

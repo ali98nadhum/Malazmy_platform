@@ -105,14 +105,28 @@ export const category = [
     subCategory: {
       item1: {
         subTitle: {
-          
+          subTitle1 : "معماريه الحاسوب المحاضره الاولى",
+          subTitle2 : "معماريه الحاسوب المحاضره الثانيه",
+          subTitle3 : "معماريه الحاسوب المحاضره الثالثه",
+          subTitle4 : "معماريه الحاسوب المحاضره الرابعه",
+          subTitle5 : "معماريه الحاسوب المحاضره الخامسه",
+          subTitle6 : "كودات المعماريه ( شيت العملي )",
         },
         cover: {
-          // img1: "https://penntoday.upenn.edu/sites/default/files/2022-10/computer-chip-ai-main.jpg",
-          // img2: "https://penntoday.upenn.edu/sites/default/files/2022-10/computer-chip-ai-main.jpg",
+          img1: "https://penntoday.upenn.edu/sites/default/files/2022-10/computer-chip-ai-main.jpg",
+          img2: "https://penntoday.upenn.edu/sites/default/files/2022-10/computer-chip-ai-main.jpg",
+          img3: "https://penntoday.upenn.edu/sites/default/files/2022-10/computer-chip-ai-main.jpg",
+          img4: "https://penntoday.upenn.edu/sites/default/files/2022-10/computer-chip-ai-main.jpg",
+          img5: "https://penntoday.upenn.edu/sites/default/files/2022-10/computer-chip-ai-main.jpg",
+          img6: "https://penntoday.upenn.edu/sites/default/files/2022-10/computer-chip-ai-main.jpg",
         },
         link: {
-          
+          link1: "https://drive.google.com/file/d/1fFCyWqXxehbixtNG0o5Qa_6Eth34rEoe/view",
+          link2: "https://drive.google.com/file/d/1D5Czw_oSbbplsPfm9PzZe7xQejRhTpyj/view",
+          link3: "https://drive.google.com/file/d/1YpIcDhndTIwAW1Cmo5BwUTkUuYZ6_LjZ/view",
+          link4: "https://drive.google.com/file/d/1xujoTAg6yrY3qJKh2I_1gv946gYybVYv/view",
+          link5: "https://drive.google.com/file/d/11BeeMf1PMzHwzLV-Zj_jslDfm3m3ay2l/view",
+          link6: "https://drive.google.com/file/d/1FrrARn63glpM_zycCAWQgp31OKInc7h1/view",
         },
       },
     },
@@ -124,14 +138,28 @@ export const category = [
     subCategory: {
       item1: {
         subTitle: {
-          
+          subTitle1 : "اجهزه وقياسات المحاضره الاولى",
+          subTitle2: "اجهزه وقياسات المحاضره الثانيه ( غير مطلوبه )",
+          subTitle3: "اجهزه وقياسات المحاضره الثالثه",
+          subTitle4 : "اجهزه وقياسات المحاضره الرابعه",
+          subTitle5: "اجهزه وقياسات المحاضره الخامسه",
+          subTitle6: "اجهزه وقياسات المحاضره السادسه",
         },
         cover: {
-          // img1: "https://eu.mouser.com/images/homepage/hero/lg/mouser-hp-bn-lg-electronics-live-exhibition-en.jpg",
-          // img2: "https://eu.mouser.com/images/homepage/hero/lg/mouser-hp-bn-lg-electronics-live-exhibition-en.jpg",
+          img1: "https://eu.mouser.com/images/homepage/hero/lg/mouser-hp-bn-lg-electronics-live-exhibition-en.jpg",
+          img2: "https://eu.mouser.com/images/homepage/hero/lg/mouser-hp-bn-lg-electronics-live-exhibition-en.jpg",
+          img3: "https://eu.mouser.com/images/homepage/hero/lg/mouser-hp-bn-lg-electronics-live-exhibition-en.jpg",
+          img4: "https://eu.mouser.com/images/homepage/hero/lg/mouser-hp-bn-lg-electronics-live-exhibition-en.jpg",
+          img5: "https://eu.mouser.com/images/homepage/hero/lg/mouser-hp-bn-lg-electronics-live-exhibition-en.jpg",
+          img6: "https://eu.mouser.com/images/homepage/hero/lg/mouser-hp-bn-lg-electronics-live-exhibition-en.jpg",
         },
         link: {
-          
+          link1 : "https://drive.google.com/file/d/1-lbBeVqVl0DQJtQNY27ZGCW-1MVv2o7a/view",
+          link2 : "",
+          link3 : "https://drive.google.com/file/d/1-T2CHl17iMz9VqHrWjEP_lg9iRuOEsU0/view",
+          link4 : "https://drive.google.com/file/d/1c25YKHDpTXAz5Cj7lbFFTBJkzf9PN_re/view",
+          link5 : "https://drive.google.com/file/d/1m8MGweW-Fry-kFTKDluunob5DfhVPcAR/view",
+          link6 : "https://drive.google.com/file/d/1EqXmRKkeglqQSygqfWd6Ae-79cQEwIrK/view",
         },
       },
     },

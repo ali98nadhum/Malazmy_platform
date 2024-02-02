@@ -3,11 +3,11 @@ import "./LandingPage.css";
 import Container from "../Container/Container";
 import Header from "../../components/Hedear/Header";
 import Footer from "../../components/Footer/Footer";
-import image from "../../assets/lang-image4.jpg";
+import image from "../../assets/lang-image4.png";
 import { Link } from "react-router-dom";
 import LogoComp from "../LogoComp/LogoComp";
 
-const LandingPage = () => {
+const LandingPage = ({ toggleTheme, theme }) => {
   const [showLogoComp, setShowLogoComp] = useState(true);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ const LandingPage = () => {
       {showLogoComp && <LogoComp />}
       {!showLogoComp && (
         <>
-          <Header />
+          <Header toggleTheme={toggleTheme} theme={theme} />
           <Container>
             <div className="land_page">
               <div className="right_sec">

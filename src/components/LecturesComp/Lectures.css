@@ -1,0 +1,227 @@
+.lectures .calendar {
+  direction: rtl;
+}
+
+.btn_day {
+  font-size: 22px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1565c0;
+  cursor: pointer;
+  width: 100px;
+  box-shadow: 0px 0px 4px 0px black;
+  color: white;
+}
+
+.btn_day:hover {
+  background-color: #0a4f9d;
+  transition: 0.25s;
+}
+
+.lectures .calendar img {
+  width: 200px;
+  height: 200px;
+}
+
+.lectures .calendar p {
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.title_Lecture {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title_line {
+  width: 500px;
+  border: 2px solid rgb(63, 210, 161);
+}
+
+.flex_Lecture {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.table h2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.table .parint_table {
+  direction: rtl;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 20px;
+  animation: lecturesAnim 2s ease 0s 1 normal forwards;
+}
+
+.table .parint_table li {
+  list-style: none;
+}
+
+.table .parint_table li h3 {
+  font-size: 24px;
+}
+
+.table .parint_table li .big_table .info_lectures {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table .parint_table li .big_table .info_lectures .flex_info {
+  background-color: #fcbf49;
+  text-align: center;
+  width: 100%;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+
+.table .parint_table li .big_table .info_lectures .flex_info p {
+  font-size: 22px;
+}
+
+/* Anmishin */
+@keyframes lecturesAnim {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateY(45px);
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateY(24px);
+  }
+
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateY(12px);
+  }
+
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateY(6px);
+  }
+
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateY(4px);
+  }
+
+  25%,
+  55%,
+  75%,
+  87% {
+    animation-timing-function: ease-out;
+    transform: translateY(0px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* Resposiv code */
+
+@media (max-width: 1025px) {
+  .title_Lecture {
+    font-size: 28px;
+  }
+  .title_line {
+    width: 350px;
+  }
+  .lectures .calendar img {
+    margin-right: 35px;
+    margin-top: 20px;
+  }
+  .lectures .calendar p {
+    margin: 25px 35px 0 20px;
+  }
+  .btn_day {
+    margin-left: 10px;
+  }
+  .table .parint_table {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .table .parint_table li .big_table .info_lectures .flex_info p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 450px) {
+  .title_Lecture {
+    font-size: 18px;
+  }
+  .title_line {
+    width: 200px;
+  }
+
+  .lectures .calendar img {
+    width: 150px;
+    height: 150px;
+    margin-right: 25px;
+    margin-top: 20px;
+  }
+  .lectures .calendar p {
+    font-size: 16px;
+    margin: 25px 20px 0 20px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .btn_day {
+    font-size: 18px;
+    margin-left: 8px;
+  }
+  .table h2 {
+    font-size: 22px;
+  }
+  .table .parint_table {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .table .parint_table li .big_table .info_lectures .flex_info p {
+    font-size: 14px;
+  }
+  .table .parint_table li .big_table .info_lectures .flex_info {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+/* Dark Mode Style */
+
+[data-theme="dark"] .title_Lecture {
+  color: white;
+}
+
+[data-theme="dark"] .lectures .calendar p {
+  color: white;
+}
+
+[data-theme="dark"] .table h2 {
+  color: white;
+}
+
+[data-theme="dark"] .table .parint_table li h3 {
+  color: white;
+}
+
+[data-theme="dark"] .table .parint_table {
+  background-color: #121212;
+}

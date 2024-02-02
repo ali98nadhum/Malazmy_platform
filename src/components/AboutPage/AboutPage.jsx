@@ -34,19 +34,23 @@ const AboutPage = () => {
               </div>
 
               <div className="social_media">
-                <Link to={'https://www.instagram.com/alinadhum_?igsh=MWE4YW1mam1xejMweQ=='}>
+                <Link
+                  to={
+                    "https://www.instagram.com/alinadhum_?igsh=MWE4YW1mam1xejMweQ=="
+                  }
+                >
                   <FaInstagram className="icon" />
                 </Link>
-                <Link to={'https://m.facebook.com/da321qxp'}>
+                <Link to={"https://m.facebook.com/da321qxp"}>
                   <FaFacebook className="icon" />
                 </Link>
                 <Link>
                   <FaLinkedin className="icon" />
                 </Link>
-                <Link to={'https://t.me/Alinadhum98'}>
+                <Link to={"https://t.me/Alinadhum98"}>
                   <FaTelegram className="icon" />
                 </Link>
-                <Link to={'https://github.com/ali98nadhum'}>
+                <Link to={"https://github.com/ali98nadhum"}>
                   <FaGithub className="icon" />
                 </Link>
               </div>
@@ -94,13 +98,13 @@ const AboutPage = () => {
               <div className="image_left">
                 <img src={image3} alt="" />
               </div>
-              <Link to={'https://t.me/+2wHU4Q-4dV1jNjYy'}>
+              <Link to={"https://t.me/+2wHU4Q-4dV1jNjYy"}>
                 <div className="sec1">
                   <FaTelegram className="telegram" />
                   <p>كروب التليكرام الرسمي </p>
                 </div>
               </Link>
-              <Link to={'https://t.me/+sGW22UmGT1UyOTU6'}>
+              <Link to={"https://t.me/+sGW22UmGT1UyOTU6"}>
                 <div className="sec2">
                   <FaTelegram className="telegram" />
                   <p>قناه الملازم على التليكرام </p>

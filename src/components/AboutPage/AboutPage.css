@@ -3,7 +3,7 @@
   animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
-.about .title h1 {
+.about .title {
   text-align: center;
 }
 
@@ -159,10 +159,9 @@
     margin-left: 25px;
     margin-right: 25px;
   }
-  .about .bottom .left .sec1{
+  .about .bottom .left .sec1 {
     margin-top: 40px;
   }
-  
 }
 
 @media (max-width: 450px) {
@@ -214,4 +213,33 @@
     margin-right: 20px;
     font-size: 24px;
   }
+}
+
+/* Dark mode */
+[data-theme="dark"] .about .bottom {
+  background-color: #121212;
+}
+
+[data-theme="dark"] .about .top .about_card .des {
+  background-color: #121212;
+}
+
+[data-theme="dark"] .about .top .about_card .des p {
+  color: white;
+}
+
+[data-theme="dark"] .about .bottom .right h1 {
+  color: white;
+}
+
+[data-theme="dark"] .about .bottom .right ul li {
+  color: white;
+}
+
+[data-theme="dark"] .about .title {
+  color: white;
+}
+
+[data-theme="dark"] .about hr {
+  border: 2px solid white;
 }

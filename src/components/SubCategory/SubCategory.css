@@ -128,3 +128,17 @@
     font-size: 12px;
   }
 }
+
+/* Dark mode */
+[data-theme="dark"] .subcategory_card .flix {
+  background-color: #121212;
+  transition: 1500ms;
+}
+
+[data-theme="dark"] .subcategory_card .flix .subcategory_card_right h1 {
+  color: white;
+}
+
+[data-theme="dark"] .subcategory_card .subcategory_header p {
+  color: white;
+}

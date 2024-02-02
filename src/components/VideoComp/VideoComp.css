@@ -147,7 +147,7 @@
   }
 }
 
-@media (max-width: 1025px){
+@media (max-width: 1025px) {
   .video_content .grid2 {
     grid-template-columns: repeat(2, 1fr);
     margin-left: 100px;
@@ -181,4 +181,22 @@
   .video_content .title_video_content h1 {
     font-size: 26px;
   }
+}
+
+/* Dark mode */
+[data-theme="dark"] .video_content {
+  background-color: #bababa;
+}
+
+[data-theme="dark"] .bg {
+  background-color: black;
+  color: white;
+}
+
+[data-theme="dark"] .card {
+  box-shadow: none;
+}
+
+[data-theme="dark"] .header_video .des_header p {
+  color: white;
 }

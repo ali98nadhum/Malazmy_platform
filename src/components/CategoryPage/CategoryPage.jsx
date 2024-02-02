@@ -6,11 +6,9 @@ import CardItem from "../CardItem/CardItem";
 import Container from "../Container/Container";
 import Footer from "../Footer/Footer";
 
-
 const CategoryPage = ({ dataProps }) => {
   return (
     <div>
-
       <Header />
       <div className="header_category">
         <div className="image_category">
