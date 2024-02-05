@@ -42,13 +42,31 @@ export const category = [
     subCategory: {
       item1: {
         subTitle: {
-          
+          subTitle1 :"الكترونيك المحاضره الاولى",
+          subTitle2 : "تمارين الكترونيك ( 1 )",
+          subTitle3 : "تمارين الكترونيك ( 2 )",
+          subTitle4 : "تمارين الكترونيك ( 3 )",
+          subTitle5 : "الكترونيك المحاضره الثانيه",
+          subTitle6 : "تمارين الكترونيك ( 4 )",
+          subTitle7 : "الكترونيك ( مهمات )"
         },
         cover: {
-          
+          cover1 : "https://indieseducation.b-cdn.net/wp-content/uploads/2020/05/Logic-Gates.png",
+          cover2 : "https://indieseducation.b-cdn.net/wp-content/uploads/2020/05/Logic-Gates.png",
+          cover3 : "https://indieseducation.b-cdn.net/wp-content/uploads/2020/05/Logic-Gates.png",
+          cover4 : "https://indieseducation.b-cdn.net/wp-content/uploads/2020/05/Logic-Gates.png",
+          cover5 : "https://indieseducation.b-cdn.net/wp-content/uploads/2020/05/Logic-Gates.png",
+          cover6 : "https://indieseducation.b-cdn.net/wp-content/uploads/2020/05/Logic-Gates.png",
+          cover7 : "https://indieseducation.b-cdn.net/wp-content/uploads/2020/05/Logic-Gates.png",
         },
         link: {
-          
+          link1 : "https://drive.google.com/file/d/17kF5xKlDlfsjzk3LVlWy2K2maaMprOME/view",
+          link2 : "https://drive.google.com/file/d/1N5dipQhhURDuTRYFxKuZVNzHhAoAj9_2/view",
+          link3 : "https://drive.google.com/file/d/1vPr-SFRuiEvWJrhaNQJ3syh1um4ywJTf/view",
+          link4 : "https://drive.google.com/file/d/1eQKEkebXVc5R_FPAEdNPuLGkbHt8xQG-/view",
+          link5 : "https://drive.google.com/file/d/1PCrfiln42C1_mcD-Bl_jOKHMq6PCNERQ/view",
+          link6 : "https://drive.google.com/file/d/19B_ybMa07Hpylz8weBSb9DvLZbWqV2Ub/view",
+          link7 : "https://drive.google.com/file/d/10iKAJkVSDmT-l5uocvbo68Ur9C949cuK/view",
         },
       },
     },

@@ -160,3 +160,10 @@
   background-color: red;
   box-shadow: 40px 0px 0px 0px red;
 }
+
+
+@media (max-width: 1025px){
+  .bg_load{
+    height: 1100px;
+  }
+}
