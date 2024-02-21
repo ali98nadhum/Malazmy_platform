@@ -13,6 +13,7 @@ export const category = [
           subTitle5: "محاضره الفريند فاكشن ( محاضره صوريه )",
           subTitle6: "محاضره الكونستراكتر و ديستراكتر ( محاضره صوريه )",
           subTitle7: "محاضره الوراثه",
+          subTitle8: "test trst",
         },
         cover: {
           img1: "https://miro.medium.com/v2/da:true/resize:fit:1200/0*ZpjhBs0gR5oSd3Il",
@@ -22,6 +23,7 @@ export const category = [
           img5: "https://miro.medium.com/v2/da:true/resize:fit:1200/0*ZpjhBs0gR5oSd3Il",
           img6: "https://miro.medium.com/v2/da:true/resize:fit:1200/0*ZpjhBs0gR5oSd3Il",
           img7: "https://miro.medium.com/v2/da:true/resize:fit:1200/0*ZpjhBs0gR5oSd3Il",
+          img8: "https://miro.medium.com/v2/da:true/resize:fit:1200/0*ZpjhBs0gR5oSd3Il",
         },
         link: {
           link1: "https://drive.google.com/file/d/1lzQ4zRj9OXumkXsvkuzlokFgPk_qPV6J/view",
@@ -31,6 +33,20 @@ export const category = [
           link5: "https://drive.google.com/file/d/1tDjmfco7qjXbUE5isHibiZhxYprcCEUX/view",
           link6: "https://drive.google.com/file/d/1GkANl35xE_xGl94dyRqugyHUiMb_-xsQ/view",
           link7: "https://drive.google.com/file/d/1huWUswIvhbj8mZiRM_OthIDI9zNbZ5qK/view",
+          link8: "https://drive.google.com/file/d/1huWUswIvhbj8mZiRM_OthIDI9zNbZ5qK/view",
+        },
+      },
+    },
+    subCategory2: {
+      item1: {
+        subTitletow: {
+         
+        },
+        covertow: {
+          
+        },
+        linktow: {
+         
         },
       },
     },
@@ -67,6 +83,19 @@ export const category = [
           link5 : "https://drive.google.com/file/d/1PCrfiln42C1_mcD-Bl_jOKHMq6PCNERQ/view",
           link6 : "https://drive.google.com/file/d/19B_ybMa07Hpylz8weBSb9DvLZbWqV2Ub/view",
           link7 : "https://drive.google.com/file/d/10iKAJkVSDmT-l5uocvbo68Ur9C949cuK/view",
+        },
+      },
+    },
+    subCategory2: {
+      item1: {
+        subTitletow: {
+         subTitle1 : "تمارين الكترونيك موضوع ال ( ترانزستر )"
+        },
+        covertow: {
+          cover1 : "https://indieseducation.b-cdn.net/wp-content/uploads/2020/05/Logic-Gates.png",
+        },
+        linktow: {
+         link1 : "https://drive.google.com/file/d/1yiNgXIVrO7C67wHaIicIUHSPFBgT6M5_/view"
         },
       },
     },
@@ -115,6 +144,19 @@ export const category = [
         },
       },
     },
+    subCategory2: {
+      item1: {
+        subTitletow: {
+         subTitle : "اللكجر السابع"
+        },
+        covertow: {
+          img1: "https://content.frontier.com/-/jssmedia/Project/Frontier/Dotcom/Images/resources/seo/how-fast-is-fiber-internet.jpg?rev=6b2e6d6729884b27948af09d2c7f15b3&hash=379FDE386E1E534031932E8DCB7D867C",
+        },
+        linktow: {
+         link1 : 'https://drive.google.com/file/d/1iu0m0uOTn5mK6Ply1TzMy3Qh6Q86Fg25/view'
+        },
+      },
+    },
   },
   {
     id: 4,
@@ -145,6 +187,19 @@ export const category = [
           link4: "https://drive.google.com/file/d/1xujoTAg6yrY3qJKh2I_1gv946gYybVYv/view",
           link5: "https://drive.google.com/file/d/11BeeMf1PMzHwzLV-Zj_jslDfm3m3ay2l/view",
           link6: "https://drive.google.com/file/d/1FrrARn63glpM_zycCAWQgp31OKInc7h1/view",
+        },
+      },
+    },
+    subCategory2: {
+      item1: {
+        subTitletow: {
+         subTitle1 : "المحاضره الاولى من الفصل الثاني"
+        },
+        covertow: {
+          img1: "https://penntoday.upenn.edu/sites/default/files/2022-10/computer-chip-ai-main.jpg",
+        },
+        linktow: {
+         link1 : "https://drive.google.com/file/d/1j8LpLUslGjr-XVoOvKdlmg0C5wSr6Nj3/view"
         },
       },
     },
@@ -181,6 +236,19 @@ export const category = [
         },
       },
     },
+    subCategory2: {
+      item1: {
+        subTitletow: {
+         
+        },
+        covertow: {
+          
+        },
+        linktow: {
+         
+        },
+      },
+    },
   },
   {
     id: 6,
@@ -202,6 +270,19 @@ export const category = [
         },
       },
     },
+    subCategory2: {
+      item1: {
+        subTitletow: {
+         subTitle1 : "محاضره المتتاليه العدديه"
+        },
+        covertow: {
+          img1: "https://www.susla.edu/assets/susla/images/MathmaticsImage.jpeg",
+        },
+        linktow: {
+         link1 : "https://drive.google.com/file/d/15gBV4TvZGJxhAziGLD_tF8xJFdNnOWTD/view"
+        },
+      },
+    },
   },
   {
     id: 7,
@@ -217,6 +298,19 @@ export const category = [
         },
         link: {
           link1: "https://drive.google.com/file/d/1MHm5tU43m_LL9dX3IsOk0K6NSX35orT5/view",
+        },
+      },
+    },
+    subCategory2: {
+      item1: {
+        subTitletow: {
+         
+        },
+        covertow: {
+          
+        },
+        linktow: {
+         
         },
       },
     },
@@ -238,5 +332,21 @@ export const category = [
         },
       },
     },
+    subCategory2: {
+      item1: {
+        subTitletow: {
+         
+        },
+        covertow: {
+          
+        },
+        linktow: {
+         
+        },
+      },
+    },
   },
 ];
+
+
+

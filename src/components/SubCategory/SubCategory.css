@@ -69,6 +69,49 @@
   transform: scale(0.96) translate(0px, 3.2px);
 }
 
+
+
+/* lecture Tow */
+
+.lecture_tow_title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  font-size: 24px;
+  background-color: #00FFEE;
+  border-radius: 10px;
+}
+
+
+.flix {
+  background-color: #eee;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.flix .subcategory_card_right {
+  display: flex;
+  align-items: center;
+}
+
+.flix .subcategory_card_right img {
+  width: 80px;
+  height: 75px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.flix .subcategory_card_right h1 {
+  margin-right: 40px;
+  font-size: 24px;
+}
+
+
 @media (max-width: 1025px) {
   .subcategory_card .subcategory_header {
     margin-bottom: 40px;
@@ -126,6 +169,12 @@
     width: 80px;
     height: 30px;
     font-size: 12px;
+  }
+
+  .lecture_tow_title{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 

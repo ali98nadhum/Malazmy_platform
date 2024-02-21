@@ -23,9 +23,7 @@ const VideoComp = () => {
             <img src={image} alt="" />
           </div>
           <div className="des_header">
-            <p>
-              بهذا القسم رح تلكه الفديوات المتوفره لشرح قسم من المواد
-            </p>
+            <p>بهذا القسم رح تلكه الفديوات المتوفره لشرح قسم من المواد</p>
           </div>
         </div>
         {/* ===== Start content page */}
@@ -38,22 +36,30 @@ const VideoComp = () => {
               {dataProgramingVideo.map((item) => {
                 return (
                   <div class="card">
-                    <div class="bg">
-                      <div className="logo_video">
+                    <div class="tools">
+                      <div class="circle">
+                        <span class="red box"></span>
+                      </div>
+                      <div class="circle">
+                        <span class="yellow box"></span>
+                      </div>
+                      <div class="circle">
+                        <span class="green box"></span>
+                      </div>
+                    </div>
+                    <div class="card__content">
+                      <div className="icon_card">
                         <IoLogoYoutube className="youtube_icon" />
                       </div>
-                      <div className="title_video">
-                        <p> {item.title} </p>
-                      </div>
+                      <div className="title_video"> <h3>{item.title}</h3> </div>
                       <div className="btn_video">
-                        <Link to={item.link}>
+                        <Link to={item.link} target="_blank" >
                           <Button className="btn" variant="contained">
                             مشاهده
                           </Button>
                         </Link>
                       </div>
                     </div>
-                    <div class="blob"></div>
                   </div>
                 );
               })}
@@ -69,22 +75,30 @@ const VideoComp = () => {
               {datamexVideo.map((item) => {
                 return (
                   <div class="card">
-                    <div class="bg">
-                      <div className="logo_video">
+                    <div class="tools">
+                      <div class="circle">
+                        <span class="red box"></span>
+                      </div>
+                      <div class="circle">
+                        <span class="yellow box"></span>
+                      </div>
+                      <div class="circle">
+                        <span class="green box"></span>
+                      </div>
+                    </div>
+                    <div class="card__content">
+                      <div className="icon_card">
                         <IoLogoYoutube className="youtube_icon" />
                       </div>
-                      <div className="title_video">
-                        <p> {item.title} </p>
-                      </div>
+                      <div className="title_video"> <h3>{item.title}</h3> </div>
                       <div className="btn_video">
-                        <Link to={item.link}>
+                        <Link to={item.link} target="_blank" >
                           <Button className="btn" variant="contained">
                             مشاهده
                           </Button>
                         </Link>
                       </div>
                     </div>
-                    <div class="blob"></div>
                   </div>
                 );
               })}
